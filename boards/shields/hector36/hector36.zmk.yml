@@ -1,0 +1,15 @@
+file_format: "1"
+id: hector36
+name: hector36
+type: shield
+url: https://github.com/ezxzeng/hector36
+requires: [nice_nano]
+features:
+  - keys
+  - studio
+siblings:
+  - hector36_dongle
+  - hector36_dongle_display
+  - hector36_left_central
+  - hector36_left_peripheral
+  - hector36_right_peripheral

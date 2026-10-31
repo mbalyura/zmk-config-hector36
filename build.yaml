@@ -1,0 +1,31 @@
+include:
+  # hector36 Dongle (optional)
+  - board: nice_nano_v2
+    shield: hector36_dongle
+    snippet: studio-rpc-usb-uart
+    artifact-name: hector36-dongle
+
+  # hector36 Dongle with display (optional)
+  - board: nice_nano_v2
+    shield: hector36_dongle_display dongle_display
+    snippet: studio-rpc-usb-uart
+    artifact-name: hector36-dongle-display
+
+  # hector36 left can either be a central (no dongle) or peripheral (with dongle)
+  - board: nice_nano_v2
+    shield: hector36_left_central
+    snippet: studio-rpc-usb-uart
+    artifact-name: hector36-left-central
+  - board: nice_nano_v2
+    shield: hector36_left_peripheral
+    artifact-name: hector36-left-peripheral
+
+  # hector36 right will always be a peripheral
+  - board: nice_nano_v2
+    shield: hector36_right_peripheral
+    artifact-name: hector36-right-peripheral
+
+  # Settings Reset
+  - board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: settings-reset

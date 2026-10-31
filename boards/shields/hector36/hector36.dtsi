@@ -1,0 +1,11 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "hector36-layouts.dtsi"
+#include "hector36-transform.dtsi"
+#include "hector36-kscan.dtsi"
+
+/ {
+	chosen {
+		zmk,physical-layout = &default_layout;
+		zmk,kscan = &default_kscan;
+	};
+};
